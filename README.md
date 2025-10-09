@@ -40,7 +40,7 @@ Com uma **interface moderna e intuitiva**, o app permite registrar comidas com d
 **Passos:**
 ```bash
 # 1. Clone o repositório
-git clone 
+git clone https://github.com/EleandersonRosadeMorais/GerenciadorDeComidas
 
 # 2. Acesse a pasta
 cd food-manager
