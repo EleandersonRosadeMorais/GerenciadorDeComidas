@@ -43,10 +43,10 @@ Com uma **interface moderna e intuitiva**, o app permite registrar comidas com d
 git clone https://github.com/EleandersonRosadeMorais/GerenciadorDeComidas
 
 # 2. Acesse a pasta
-cd food-manager
+cd GerenciadorDeComidas
 
 # 3. Abra no Android Studio
-android-studio .
+"C:\Program Files\Android\Android Studio\bin\studio64.exe" .
 
 # 4. Execute o app
 # (Shift + F10 ou Run 'app')
@@ -60,18 +60,24 @@ android-studio .
 📦 app
 ├── 📂 manifests/
 │   └── AndroidManifest.xml
-├── 📂 java/com/ulbra/comidas/
-│   ├── MainActivity.java
-│   ├── Registro.java
-│   ├── TelaPrincipal.java
-│   ├── TelaCadastroComida.java
-│   └── TelaListagemComidas.java
-├── 📂 res/
-│   ├── 📂 drawable/
-│   ├── 📂 layout/
-│   ├── 📂 mipmap/
-│   └── 📂 values/
-└── 📂 Gradle Scripts/
+├── 📂 java/
+│   └── 📂com.ulbra.comidas/
+│       ├── MainActivity.java
+│       ├── Registro.java
+│       ├── TelaCadastroComida.java
+│       ├── TelaListagemComidas.java
+│       └── TelaPrincipal.java
+└── 📂 res/
+     ├── 📂 drawable/
+     │   └── food.png
+     ├── 📂 layout/
+     │   ├── cadastro_de_comidas.xml
+     │   ├── listagem_comidas_cadastradas.xml
+     │   └── tela_principal
+     ├── 📂 mipmap/
+     ├── 📂 values/
+     └── 📂 xml/
+ 📂 Gradle Scripts/
 ```
 
 ---
@@ -106,6 +112,8 @@ Projeto desenvolvido com fins educacionais, com foco em:
 - Uso de **Material Design** e boas práticas de UI/UX
 - Estruturação e gerenciamento de dados no app
 - Organização de código e arquitetura limpa
+- Melhora continua da criatividade
+- Desenvolvimento prático de **.xml** com **.java**
 
 ---
 
